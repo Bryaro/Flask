@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Mecca",
+        "description": "Mecca, also known as Makkah in Arabic, is one of the holiest cities in Islam located in the western part of Saudi Arabia. It is the birthplace of Prophet Muhammad, home to the Kaaba, the most sacred site in Islam, and the destination for the annual Hajj pilgrimage. Additionally, Mecca boasts historical sites like the cave of Hira and the Well of Zamzam, both integral to Islamic history.",
+        "image": "/static/img/Mecca.png",
+        "url": "mecca"
+    },
+    {
+        "name": "Medina",
+        "description": "Medina, also known as Madinah in Arabic, is a significant city in Islam located in the Hejaz region of Saudi Arabia, north of Mecca. It is the second holiest city in Islam and is famous for being the city of the Prophet's migration in 622 CE. Medina is home to the Prophet's Mosque (Al-Masjid an-Nabawi) containing the Prophet Muhammad's tomb, symbolizing unity among Muslims. It serves as a center for Islamic education and scholarship with historical importance.",
+        "image": "/static/img/Medina.png",
+        "url": "medina"
+    },
+    {
+        "name": "Mount Arafat (Jabal al-Arafat)",
+        "description": "Located near Mecca, Mount Arafat is a significant site during the Hajj pilgrimage, where pilgrims stand in prayer and supplication on the Day of Arafat.",
+        "image": "",
+        "url": "mount-arafat"
+    },
+    {
+        "name": "Mina",
+        "description": "A tent city near Mecca where pilgrims stay during the Hajj pilgrimage. It is the site of various symbolic rituals, including the Stoning of the Devil.",
+        "image": "",
+        "url": "mina"
+    },
+    {
+        "name": "The Well of Zamzam",
+        "description": "Located inside the Masjid al-Haram in Mecca, it is believed to be the well miraculously provided by God for Hagar and her son, Ishmael. Pilgrims often drink from this well.",
+        "image": "",
+        "url": "well-of-zamzam"
+    },
+    {
+        "name": "Jannat al-Mu'alla",
+        "description": "A historic cemetery in Mecca where several important figures in Islamic history, including the Prophet's wife Khadijah, are buried.",
+        "image": "",
+        "url": "jannat-al-mualla"
+    },
+    {
+        "name": "Quba Mosque",
+        "description": "The first mosque built by Prophet Muhammad in Medina and a significant place of worship for Muslims.",
+        "image": "",
+        "url": "quba-mosque"
+    },
+    {
+        "name": "Qiblatain Mosque",
+        "description": "Known for the historical event where the qibla (direction of prayer) changed from Jerusalem to Mecca. It has two mihrabs (prayer niches) to symbolize this event.",
+        "image": "",
+        "url": "qiblatain-mosque"
+    },
+    {
+        "name": "Uhud Mountain",
+        "description": "Located in Medina, it is associated with the Battle of Uhud and holds historical significance in Islamic history.",
+        "image": "",
+        "url": "uhud-mountain"
+    },
+    {
+        "name": "Ghar Hira (Cave of Hira)",
+        "description": "A cave in the Jabal al-Nour mountain near Mecca where Prophet Muhammad received his first revelations from God through the angel Gabriel.",
+        "image": "",
+        "url": "ghar-hira"
+    }
+]

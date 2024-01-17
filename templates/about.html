@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h2>{{ page_title }}</h2>
+    <p>
+        Join our Dawah team for a journey of understanding. We welcome your questions
+        and share insights into Islamic beliefs with open hearts and minds. Let's
+        explore and learn together.
+    </p>
+
+    {% for area in place %}
+
+        <div class="row featurette">
+
+                {% if loop.index % 2 == 0 %}
+
+                    <div class="col-md-7">
+                        <h3><a href="/about/{{ area.url }}">{{ loop.index }}. {{ area.name }}</a></h3>
+                        <p>{{ area.description }}</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="{{ area.image }}" class ="featurette-image image-responsive"/>
+                    </div>
+
+                {% else %}
+
+                <div class="col-md-5">
+                    <img src="{{ area.image }}" class ="featurette-image image-responsive"/>
+                </div>
+                <div class="col-md-7">
+                    <h3><a href="/about/{{ area.url }}">{{ loop.index }}. {{ area.name }}</a></h3>
+                    <p>{{ area.description }}</p>
+                </div>
+
+                {% endif %}
+
+        </div>
+
+        {% if loop.index != loop.length %}
+
+            <hr class="featurette-divider">
+
+        {% endif %}
+
+    {% endfor %}
+
+{% endblock %}
