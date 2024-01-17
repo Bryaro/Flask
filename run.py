@@ -38,6 +38,7 @@ def contact():
     if request.method == "POST":
         flash("thanks {}, we've received your message!".format(
             request.form.get("name")))
+
     return render_template("contact.html", page_title="contact")
 
 
